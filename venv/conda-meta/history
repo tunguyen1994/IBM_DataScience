@@ -1,0 +1,16 @@
+==> 2022-11-17 14:22:05 <==
+# cmd: C:\Users\TuanA\miniconda3\Scripts\conda-script.py create -p venv python==3.9 -y
+# conda version: 22.9.0
++conda-forge/noarch::pip-22.3.1-pyhd8ed1ab_0
++conda-forge/noarch::setuptools-65.5.1-pyhd8ed1ab_0
++conda-forge/noarch::tzdata-2022f-h191b570_0
++conda-forge/noarch::wheel-0.38.4-pyhd8ed1ab_0
++conda-forge/win-64::ca-certificates-2022.9.24-h5b45459_0
++conda-forge/win-64::libsqlite-3.40.0-hcfcfb64_0
++conda-forge/win-64::openssl-1.1.1s-hcfcfb64_0
++conda-forge/win-64::python-3.9.0-h7840368_5_cpython
++conda-forge/win-64::sqlite-3.40.0-hcfcfb64_0
++conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
++conda-forge/win-64::vc-14.3-h3d8a991_9
++conda-forge/win-64::vs2015_runtime-14.32.31332-h1d6e394_9
+# update specs: ['python==3.9']

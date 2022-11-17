@@ -1,0 +1,93 @@
+<html>
+    <body>
+        <h1>
+            <div class="'login">
+                <h1>SpaceX rocket landing succession</h1>
+                
+                <!-- Main input for receiving querry to our ML-->
+                <form action="={{url_for('predict')}}"methods='post'>
+                    <input type="text" name='FlightNumber' placeholder="FlightNumber" required="required" /><br>
+                    <input type="text" name='PayloadMass' placeholder="PayloadMassr" required="required" /><br>
+                    <input type="text" name='Flights' placeholder="Flights" required="required" /><br>
+                    <input type="text" name='Block' placeholder="Block" required="required" /><br>
+                    <input type="text" name='ReusedCount' placeholder="ReusedCount" required="required" /><br>
+                    <input type="text" name='Orbit_ES-L1' placeholder="Orbit_ES-L1" required="required" /><br>
+                    <input type="text" name='Orbit_GEO' placeholder="Orbit_GEO" required="required" /><br>
+                    <input type="text" name='Orbit_GTO' placeholder="Orbit_GTO" required="required" /><br>
+                    <input type="text" name='Orbit_HEO' placeholder="Orbit_HEO" required="required" /><br>
+                    <input type="text" name='Orbit_ISS' placeholder="Orbit_ISS" required="required" /><br>
+                    <input type="text" name='Orbit_LEO' placeholder="Orbit_LEO" required="required" /><br>
+                    <input type="text" name='Orbit_MEO' placeholder="Orbit_MEO" required="required" /><br>
+                    <input type="text" name='Orbit_PO' placeholder="Orbit_PO" required="required" /><br>
+                    <input type="text" name='Orbit_SO' placeholder="Orbit_SO" required="required" /><br>
+                    <input type="text" name='Orbit_SSO' placeholder="Orbit_SSO" required="required" /><br>
+                    <input type="text" name='Orbit_VLEO' placeholder="Orbit_VLEO" required="required" /><br>
+                    <input type="text" name='LaunchSite_CCAFS SLC 40' placeholder="LaunchSite_CCAFS SLC 40" required="required" /><br>
+                    <input type="text" name='LaunchSite_KSC LC 39A' placeholder="LaunchSite_KSC LC 39A" required="required" /><br>
+                    <input type="text" name='LaunchSite_VAFB SLC 4E' placeholder="LaunchSite_VAFB SLC 4E" required="required" /><br>
+                    <input type="text" name='LandingPad_5e9e3032383ecb267a34e7c7' placeholder="LandingPad_5e9e3032383ecb267a34e7c7" required="required" /><br>
+                    <input type="text" name='LandingPad_5e9e3032383ecb554034e7c9' placeholder="LandingPad_5e9e3032383ecb554034e7c9" required="required" /><br>
+                    <input type="text" name='LandingPad_5e9e3032383ecb6bb234e7ca' placeholder="LandingPad_5e9e3032383ecb6bb234e7ca" required="required" /><br>
+                    <input type="text" name='LandingPad_5e9e3032383ecb761634e7cb' placeholder="LandingPad_5e9e3032383ecb761634e7cb" required="required" /><br>
+                    <input type="text" name='LandingPad_5e9e3033383ecbb9e534e7cc' placeholder="LandingPad_5e9e3033383ecbb9e534e7cc" required="required" /><br>
+                    <input type="text" name='Serial_B0003' placeholder="Serial_B0003" required="required" /><br>
+                    <input type="text" name='Serial_B0005' placeholder="Serial_B0005" required="required" /><br>
+                    <input type="text" name='Serial_B0007' placeholder="Serial_B0007" required="required" /><br>
+                    <input type="text" name='Serial_B0008' placeholder="Serial_B0008" required="required" /><br>
+                    <input type="text" name='Serial_B1010' placeholder="Serial_B1010" required="required" /><br>
+                    <input type="text" name='Serial_B1011' placeholder="Serial_B1011" required="required" /><br>
+                    <input type="text" name='Serial_B1012' placeholder="Serial_B1012" required="required" /><br>
+                    <input type="text" name='Serial_B1013' placeholder="Serial_B1013" required="required" /><br>
+                    <input type="text" name='Serial_B1015' placeholder="Serial_B1015" required="required" /><br>
+                    <input type="text" name='Serial_B1016' placeholder="Serial_B1016" required="required" /><br>
+                    <input type="text" name='Serial_B1017' placeholder="Serial_B1017" required="required" /><br>
+                    <input type="text" name='Serial_B1018' placeholder="Serial_B1018" required="required" /><br>
+                    <input type="text" name='Serial_B1019' placeholder="Serial_B1019" required="required" /><br>
+                    <input type="text" name='Serial_B1020' placeholder="Serial_B1020" required="required" /><br>
+                    <input type="text" name='Serial_B1021' placeholder="Serial_B1021" required="required" /><br>
+                    <input type="text" name='Serial_B1022' placeholder="Serial_B1022" required="required" /><br>
+                    <input type="text" name='Serial_B1023' placeholder="Serial_B1023" required="required" /><br>
+                    <input type="text" name='Serial_B1025' placeholder="Serial_B1025" required="required" /><br>
+                    <input type="text" name='Serial_B1026' placeholder="Serial_B1026" required="required" /><br>
+                    <input type="text" name='Serial_B1028' placeholder="Serial_B1028" required="required" /><br>
+                    <input type="text" name='Serial_B1029' placeholder="Serial_B1029" required="required" /><br>
+                    <input type="text" name='Serial_B1030' placeholder="Serial_B1030" required="required" /><br>
+                    <input type="text" name='Serial_B1031' placeholder="Serial_B1031" required="required" /><br>
+                    <input type="text" name='Serial_B1032' placeholder="Serial_B1032" required="required" /><br>
+                    <input type="text" name='Serial_B1034' placeholder="Serial_B1034" required="required" /><br>
+                    <input type="text" name='Serial_B1035' placeholder="Serial_B1035" required="required" /><br>
+                    <input type="text" name='Serial_B1036' placeholder="Serial_B1036" required="required" /><br>
+                    <input type="text" name='Serial_B1037' placeholder="Serial_B1037" required="required" /><br>
+                    <input type="text" name='Serial_B1038' placeholder="Serial_B1038" required="required" /><br>
+                    <input type="text" name='Serial_B1039' placeholder="Serial_B1039" required="required" /><br>
+                    <input type="text" name='Serial_B1040' placeholder="Serial_B1040" required="required" /><br>
+                    <input type="text" name='Serial_B1041' placeholder="Serial_B1041" required="required" /><br>
+                    <input type="text" name='Serial_B1042' placeholder="Serial_B1042" required="required" /><br>
+                    <input type="text" name='Serial_B1043' placeholder="Serial_B1043" required="required" /><br>
+                    <input type="text" name='Serial_B1044' placeholder="Serial_B1044" required="required" /><br>
+                    <input type="text" name='Serial_B1045' placeholder="Serial_B1045" required="required" /><br>
+                    <input type="text" name='Serial_B1046' placeholder="Serial_B1046" required="required" /><br>
+                    <input type="text" name='Serial_B1047' placeholder="Serial_B1047" required="required" /><br>
+                    <input type="text" name='Serial_B1048' placeholder="Serial_B1048" required="required" /><br>
+                    <input type="text" name='Serial_B1049' placeholder="Serial_B1049" required="required" /><br>
+                    <input type="text" name='Serial_B1050' placeholder="Serial_B1050" required="required" /><br>
+                    <input type="text" name='Serial_B1051' placeholder="Serial_B1051" required="required" /><br>
+                    <input type="text" name='Serial_B1054' placeholder="Serial_B1054" required="required" /><br>
+                    <input type="text" name='Serial_B1056' placeholder="Serial_B1056" required="required" /><br>
+                    <input type="text" name='Serial_B1058' placeholder="Serial_B1058" required="required" /><br>
+                    <input type="text" name='Serial_B1060' placeholder="Serial_B1060" required="required" /><br>
+                    <input type="text" name='Serial_B1062' placeholder="Serial_B1062" required="required" /><br>
+                    <input type="text" name='GridFins_False' placeholder="GridFins_False" required="required" /><br>
+                    <input type="text" name='GridFins_True' placeholder="GridFins_True" required="required" /><br>
+                    <input type="text" name='Reused_False' placeholder="Reused_False" required="required" /><br>
+                    <input type="text" name='Reused_True' placeholder="Reused_True" required="required" /><br>
+                    <input type="text" name='Legs_False' placeholder="Legs_False" required="required" /><br>
+                    <input type="text" name='Legs_True' placeholder="Legs_True" required="required" /><br>
+                    
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                </form>
+            </div>
+            {{prediction_text}}
+        </h1>
+    </body>
+</html>
